@@ -1,6 +1,6 @@
 cask "maccontrol-mcp" do
-  version "0.2.49"
-  sha256 "c5c75c4f949b6abc3a4342a795f4e692024d69fb641cd970413a28b86a05a29c"
+  version "0.2.50"
+  sha256 "7f3a31160749a78354693b1a9907fba90c4fc7589d6e3cdc79f6d0629b83b22c"
 
   url "https://github.com/drewster99/drews-mac-control-mcp/releases/download/v#{version}/MacControlMCP-#{version}.zip"
   name "MacControlMCP"
