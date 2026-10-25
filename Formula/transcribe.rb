@@ -1,12 +1,12 @@
 class Transcribe < Formula
   desc "Transcribe audio and video files using on-device speech recognition"
   homepage "https://github.com/drewster99/macos-transcribe"
-  url "https://github.com/drewster99/macos-transcribe/releases/download/v0.1.1/transcribe-0.1.1-macos-arm64.tar.gz"
-  sha256 "56f9709436ded596947ab959b936dee8be9f35125e16d85a8249916cc82e9add"
+  url "https://github.com/drewster99/macos-transcribe/releases/download/v0.1.2/transcribe-0.1.2-macos-arm64.tar.gz"
+  sha256 "217cbb65ed2215448f3d7e37b1219782d32c1daacf85dd5c9e0da82c8173b3ff"
   license "MIT"
   # Stated explicitly: the asset name carries the platform and architecture, so Homebrew cannot
   # infer the version from the URL.
-  version "0.1.1"
+  version "0.1.2"
 
   # The on-device speech models are Apple silicon only, and SpeechAnalyzer requires macOS 26.
   depends_on arch: :arm64
